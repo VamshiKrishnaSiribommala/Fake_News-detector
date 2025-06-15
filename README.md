@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Detect whether a news article is Real or Fake using Machine Learning and NLP 🧠</b><br>
-  <i>Built with Django • Scikit-learn • NLTK • React • HTML/CSS/JS</i>
+  <i>Built with Django • Scikit-learn • NLTK </i>
 </p>
 
 <p align="center">
