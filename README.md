@@ -1,6 +1,6 @@
 # Fake News Detector
 
-[![Watch the video](https://i.postimg.cc/tgGgrMsN/25480.jpg)](http://artificialbrains.s3.amazonaws.com/news_guardian.mp4)
+
 
 
 Welcome to the Fake News Detector project! This project was created as part of my college coursework, and I'm excited to share it with the developer community. If you are interested in contributing to this project or using it as a basis for your own development, please read on.
@@ -12,13 +12,13 @@ FND is a web-based application designed to detect fake news articles. It uses ma
 ## Features
 
 - **Live News Monitoring:** View real-time predictions for news articles.
-![live_monitoring](https://imgur.com/9BVijIo.png)
+![live_monitoring](https://res.cloudinary.com/dng99s7st/image/upload/v1749968885/fake%20news%20detection.png)
 
 - **News Quiz:** Test your fake news detection skills by taking our news quiz.
 ![news_quiz](https://imgur.com/w0xmk5f.png)
 
 - **Check News by Title:** Enter a news title to see if it's predicted as real or fake.
-![check_title](https://imgur.com/YDrfDVT.png)
+![check_title](https://res.cloudinary.com/dng99s7st/image/upload/v1749968884/hfwot7g0lrok1mdyvenb.png)
 
 - **User Collaboration:** I encourage other developers to collaborate and improve this project further.
 
