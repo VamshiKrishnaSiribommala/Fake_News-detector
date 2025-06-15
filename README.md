@@ -1,15 +1,115 @@
-# Fake News Detector
+<h1 align="center">📰 Fake News Detector</h1>
 
+<p align="center">
+  <b>Detect whether a news article is Real or Fake using Machine Learning and NLP 🧠</b><br>
+  <i>Built with Django • Scikit-learn • NLTK • React • HTML/CSS/JS</i>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Scikit--learn-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-Django-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/NLP-NLTK-orange?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/VamshiKrishnaSiribommala/Fake_News-detector?style=for-the-badge">
+</p>
 
+---
 
-Welcome to the Fake News Detector project! This project was created as part of my college coursework, and I'm excited to share it with the developer community. If you are interested in contributing to this project or using it as a basis for your own development, please read on.
+## 🚀 Features
 
-## About FND
+- 🔍 Real-time fake news classification using ML
+- 🧠 NLP text preprocessing (tokenization, stopword removal, etc.)
+- 🌐 Django-powered REST backend
+- ⚙️ React-based frontend interface
+- 🗃️ Quiz/game dataset loader for extra functionality
 
-FND is a web-based application designed to detect fake news articles. It uses machine learning models to analyze news articles and predict whether they are real or fake. The goal of this project is to provide a tool that can help users identify unreliable news sources and combat the spread of misinformation.
+---
 
-## Features
+## 🛠️ Tech Stack
+
+| Category     | Tech Used                           |
+|--------------|-------------------------------------|
+| 💻 Frontend  | React, HTML, CSS, JavaScript        |
+| 🔙 Backend   | Python, Django                      |
+| 🧠 ML/NLP    | Scikit-learn, NLTK                  |
+| 🗂️ Dataset   | Fake and Real News Dataset (Kaggle) |
+
+---
+
+## 📦 Installation & Deployment Guide
+
+### 🔁 1. Clone the Repository
+
+```bash
+git clone https://github.com/VamshiKrishnaSiribommala/Fake_News-detector.git
+cd Fake_News-detector
+```
+
+---
+
+### 🐍 2. Install Python Dependencies
+
+```bash
+cd app/FakeNewsDetectorAPI/
+pip install -r requirements.txt
+```
+
+---
+
+### 🌐 3. Install Frontend Dependencies
+
+```bash
+cd ../fake-news-detector-frontend
+npm install
+```
+
+---
+
+### 🚀 4. Start Django Backend Server
+
+```bash
+# From project root
+cd app/FakeNewsDetectorAPI/
+python manage.py migrate
+python manage.py runserver
+```
+
+To load quiz/game data:
+
+```bash
+python manage.py quiz_data_loader game_data/game_data.csv
+```
+
+---
+
+### 💻 5. Start React Frontend Server
+
+> Open a **new terminal**, then run:
+
+```bash
+cd app/fake-news-detector-frontend/
+npm start
+```
+
+---
+
+### 🌍 Access the Web Application
+
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🧪 How It Works
+
+1. 📝 User submits a news headline or article.
+2. 🧹 NLP preprocessing is applied (stopword removal, vectorization, etc.).
+3. 🤖 The ML model classifies the input as **Real** or **Fake**.
+4. 📱 The result is displayed on the frontend.
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots like these:_
 
 - **Live News Monitoring:** View real-time predictions for news articles.
 ![live_monitoring](https://res.cloudinary.com/dng99s7st/image/upload/v1749968885/fake%20news%20detection.png)
@@ -19,56 +119,31 @@ FND is a web-based application designed to detect fake news articles. It uses ma
 
 - **Check News by Title:** Enter a news title to see if it's predicted as real or fake.
 ![check_title](https://res.cloudinary.com/dng99s7st/image/upload/v1749968884/hfwot7g0lrok1mdyvenb.png)
+---
 
-- **User Collaboration:** I encourage other developers to collaborate and improve this project further.
+## 🙋‍♂️ Author
 
-## Getting Started
+**Vamshi Krishna Siribommala**  
+📧 [vamshikrishnasiribommala@gmail.com](mailto:vamshikrishnasiribommala@gmail.com)  
+🔗 [GitHub Profile](https://github.com/VamshiKrishnaSiribommala)
 
-To get started with this project, follow these steps:
+---
 
-1. Cloning the repository
+## 🐛 Issues & Feedback
+
+If you have any questions or suggestions, feel free to reach out to me at [vamshikrishnasiribommala@gmail.com](mailto:vamshikrishnasiribommala@gmail.com).  
+If you encounter any issues, raise an [issue](https://github.com/VamshiKrishnaSiribommala/Fake_News-detector/issues).
+
+---
+
+## 🌟 Show Your Support
+
+If you like this project:
+
+> ⭐ Give it a star  
+> 🍴 Fork it  
+> 📢 Share it
+
+<p align="center">📚 Keep Learning. Keep Practicing. Keep Growing. 🚀</p>
 
 
-
-2. Install the required libraries for python
-
-`cd Fake-News-Detector/app/FakeNewsDetectorAPI/ && pip install -r requirements.txt`
-
-3. Install the required libraries for js
-
-`cd ../fake-news-detector-frontend && npm install`
-
-4. Deployment
-
-Open terminal and cd to project root folder and run
-
-`cd app/FakeNewsDetectorAPI/ && python manage.py migrate && python manage.py runserver`
-
-To load quiz data,
-
-`python manage.py quiz_data_loader game_data/game_data.csv`
-
-Open another terminal and cd to project root folder and run
-
-`cd app/fake-news-detector-frontend/ && npm start`
-
-All set if everything running without errors. Now the deployed web application should open in a browser. If not, open a browser and navigate to http://localhost:3000
-
-## Contributing
-
-I welcome contributions from fellow developers. If you have ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request. Your contributions will be greatly appreciated and will help make this project even better.
-
-## Roadmap
-
-- **Enhanced Machine Learning Models:** Improve the accuracy of the fake news detection models.
-- **User Profiles:** Allow users to create profiles and track their quiz scores.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to me at [dark_agent_437@protonmail.com](dark_agent_437@protonmail.com).
-
-If you have any issues, raise [issue](https://github.com/DJDarkCyber/Fake-News-Detector/issues).
-
-Thank you for considering contributing to the Fake News Detector project. Together, we can make a positive impact on the fight against misinformation.
-
-Happy coding!
