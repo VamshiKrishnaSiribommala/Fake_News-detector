@@ -15,7 +15,7 @@ FND is a web-based application designed to detect fake news articles. It uses ma
 ![live_monitoring](https://res.cloudinary.com/dng99s7st/image/upload/v1749968885/fake%20news%20detection.png)
 
 - **News Quiz:** Test your fake news detection skills by taking our news quiz.
-![news_quiz](https://imgur.com/w0xmk5f.png)
+![news_quiz](https://res.cloudinary.com/dng99s7st/image/upload/v1749969314/obuugqolg0gnyexvpaqs.png)
 
 - **Check News by Title:** Enter a news title to see if it's predicted as real or fake.
 ![check_title](https://res.cloudinary.com/dng99s7st/image/upload/v1749968884/hfwot7g0lrok1mdyvenb.png)
